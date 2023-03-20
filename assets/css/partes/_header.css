@@ -99,3 +99,7 @@ menu a{
     font-size: 20px;
     color: var(--cor-branca);
 }
+
+menu ul li {
+    padding-bottom: 25px;
+}
