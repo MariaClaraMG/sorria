@@ -156,10 +156,6 @@
         height: 80px;
     }
 
-    #apps img{
-        width: 15%;
-    }
-
     #rodape p{
         font-size: 13px;
     }
@@ -172,10 +168,6 @@
 
     #parent .col img{
         padding: 8px;
-    }
-
-    #apps img{
-        width: 30%;
     }
 
     #corpo #sobre{
@@ -244,10 +236,6 @@
         height: 80px;
     }
 
-    #apps img{
-        width: 15%;
-    }
-
     #rodape p{
         font-size: 13px;
     }
@@ -264,8 +252,15 @@
         font-size: 18px;
         text-align: center;
     }
+}
 
-    #apps img{
-        width: 75%;
+@media (max-width: 376px){
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    #apps img {
+        width: 28px;
     }
 }
